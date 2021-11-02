@@ -1,0 +1,11 @@
+git init (in the folder terminal) : init a git management of the repository
+
+git add .  : adds all the modifications of the current folder
+
+git status : status of the repistory
+
+git commit -m[commit_name] : commits modif , commit name for remember what modifications
+
+git log : shows all the commits for the repo.
+
+git branch  : shows the branch of the curent 'commit'

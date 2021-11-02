@@ -1,0 +1,21 @@
+10/27/2021,,,MCUt6100J2,,,,,IDN,
+,,,,,,Logique,,,
+,,MCU ,Cuivre,,,,,,
+,,6100,strike,,,,,,
+,,J,Octobre/call,,expiry,2eme jour ouvre de Month(octobre+1),,EXPIRY_DATE(67),31-Oct-22
+,,2,2022,,,,,,
+,,Underlying,MCU0 ,,,"Cash price (fwd 2 jour/ spot) (code+""0"")",,"MCU0 (code+""0"")",
+,,First fixing date,???,,,"1er jour ouvre du mois d expiry (See Clark  Book)
+Traded Average Price Options (TAPOs) are exchange traded and cleared contracts which settle financially based on the average of the daily LME Official Settlement Prices for the relevant month.
+",,Buisness Logique,
+,,Last fixing date,???,,expiry,"dernier jour ouvre (expiry de l option)
+https://www.lme.com/en/Metals/Non-ferrous/lme-Aluminium/Contract-specifications(see tapo)",,EXPIRY_DATE(67),
+,,Settlement date,,,expiry +2WD,,,Buisness logique,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,21-Jun-17,21-Aug-80,,,,
+,,,," 42,907.00 "," 65,979.00 ",,,,

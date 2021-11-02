@@ -1,0 +1,3 @@
+Pyon (Pythonic JSON) is a Python library which allows you to easily convert native objects into JSON objects. 
+It also supports filesystem-like path-structure, which allows you to easily construct you JSON objects just the way you like it. 
+Additionally, it uses recursion in order to also convert every connected object into a usable form. Prerequisites

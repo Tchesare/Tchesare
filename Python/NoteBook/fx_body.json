@@ -1,0 +1,82 @@
+{
+    "fields": [
+        "FxSpot_BidMidAsk",
+        "FxSpotCcy1_BidMidAsk",
+        "FxSpotCcy2_BidMidAsk",
+        "FxSwapsCcy1_BidMidAsk",
+        "FxSwapsCcy2_BidMidAsk",
+        "FxSwapsCcy1Ccy2_BidMidAsk",
+        "ErrorMessage"
+    ],
+    "outputs": [
+        "Data",
+        "marketData"
+    ],
+    "universe": [
+        {
+            "instrumentType": "FxCross",
+            "instrumentDefinition": {
+                "instrumentTag": "StandardPeriods",
+                "fxCrossType": "FxForward",
+                "fxCrossCode": "EURJPY",
+                "legs": [
+                    {
+                        "tenor": "SW"
+                    }
+                ]
+            },
+            "pricingParameters": {
+                "valuationDate": "2021-08-20"
+            }
+        }
+    ],
+    "marketData": {
+        "fxSpots": [
+            {
+                "spotDefinition": {
+                    "fxCrossCode": "EURUSD",
+                    "source": "Composite"
+                }
+            },
+            {
+                "spotDefinition": {
+                    "fxCrossCode": "USDJPY",
+                    "source": "Composite"
+                }
+            },
+            {
+                "spotDefinition": {
+                    "fxCrossCode": "EURJPY",
+                    "source": "composite"
+                }
+            }
+        ],
+        "fxSwapPoints": [
+            {
+                "curveDefinition": {
+                    "fxCrossCode": "EURUSD",
+                    "source": "Composite"
+                },
+                "curveParameters": {}
+            },
+            {
+                "curveDefinition": {
+                    "fxCrossCode": "USDJPY",
+                    "source": "Composite"
+                },
+                "curveParameters": {}
+            },
+            {
+                "curveDefinition": {
+                    "fxCrossCode": "EURJPY",
+                    "source": "Composite"
+                },
+                "curveParameters": {}
+            }
+        ]
+    }
+}
+
+
+
+

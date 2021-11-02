@@ -1,0 +1,13 @@
+cd by itself or cd ~ will always put the user in their home directory.
+
+cd . will leave the user in the same directory they are currently in (i.e. the current directory won't change). This can be useful if the user's shell's internal code can't deal with the directory they are in being recreated; running cd . will place their shell in the recreated directory.
+
+cd ~username will put the user in the username's home directory.
+
+cd dir (without a /) will put the user in a subdirectory; for example, if they are in /usr, typing cd bin will put them in /usr/bin, while cd /bin puts them in /bin.
+
+cd .. will move the user up one directory.
+
+cd - will switch the user to the previous directory. 
+ 
+cd [path] to path ditrctory
